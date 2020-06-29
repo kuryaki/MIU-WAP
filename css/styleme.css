@@ -1,0 +1,24 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    border: 3px solid black;
+}
+
+#moods ul {
+    list-style: none;
+}
+
+#moods ul li {
+    text-align: center;
+}
+
+#neighbors p {
+    text-align: center;
+}
