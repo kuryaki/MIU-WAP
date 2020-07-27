@@ -56,3 +56,6 @@ function multiply(nums) {
     return nums.reduce((curr, sum) => curr*sum, 1)
 }
 
+function filterLongWords(words, minSize) {
+    return words.filter((word) => word.length > minSize)
+}
