@@ -1,0 +1,7 @@
+curl -X POST 'https://app.omsg.io/api/messages' \
+     -H 'Content-Type: application/json' \
+     -H 'Authorization: Bearer OM-1139eacdd81048c0b1f212be62309d50' \
+     -d '{ \
+        "phone":"+18724000824", \
+        "conversation": "832fd527-707b-472f-8d72-691ca8d62be2"
+      }'
